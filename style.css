@@ -27,6 +27,9 @@ h1 {
     margin-bottom:45px;
     display:inline-block;
 }
+@media (min-width: 600px) {
+
+}
 
 
 .countdown-container{
@@ -48,4 +51,14 @@ h1 {
 
 .countdown-el span{
     font-size: 2rem;
+}
+
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
 }
